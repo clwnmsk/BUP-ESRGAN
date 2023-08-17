@@ -9,7 +9,7 @@ cd "files"
 
 REM Цикл для обработки файлов
 for %%F in (*.png *.jpg *.jpeg) do (
-    %executable% -i "%%F" -o "outputs\%%~nF_output.png"
+    %executable% -i "%%F" -o "outputs\%%~nF_output.png" -s 4
 )
 
 endlocal
