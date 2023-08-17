@@ -2,7 +2,7 @@
 setlocal
 
 REM Путь к исполняемому файлу realesrgan-ncnn-vulkan.exe
-set "executable=D:\Python\realesrgan-ncnn-vulkan\realesrgan-ncnn-vulkan.exe"
+set "executable=D:\realesrgan-ncnn-vulkan\realesrgan-ncnn-vulkan.exe"
 
 REM Переход в папку files
 cd "files"
