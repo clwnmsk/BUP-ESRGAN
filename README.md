@@ -13,6 +13,13 @@ This is a small add-on for batch resizing images using the program from the <a h
 6. Run upscale.bat.<br />
 <br />
 Resized files will be saved in "files/outputs" directory
+<br />
+By default, the command <i>%executable% -i "%%F" -o "outputs\%%~nF_output.png" -s 4</i> will upscale 4 times. If this is too much for you, change to 2.
+<h3>Drag and Drop:</h3>
+1. Select multiple images you are going to enlarge<br />
+2. Drag them to DragAndDrop.bat and wait for the operation to complete<br />
+3. Changed images will be saved in the "outputs/" directory<br />
+
 
 <h3>[RU]</h3>
 <b>Небольшой пост «<a href="https://dzen.ru/a/ZN3pxn-4P1Zypivj">Пакетное увеличение изображений и фотографий в 4 раза с помощью модели Real ESRGAN</a>» на Дзене</b>.
@@ -26,3 +33,9 @@ Resized files will be saved in "files/outputs" directory
 6. Запустите upscale.bat.<br />
 <br />
 Файлы с измененным размером будут сохранены в каталоге «files/outputs».
+<br />
+По умолчанию команда <i>%executable% -i "%%F" -o "outputs\%%~nF_output.png" -s 4</i> увеличивает масштаб в 4 раза. Если это слишком много для вас, измените на 2.
+<h3>Перетащи и брось:</h3>
+1. Выберите несколько изображений, которые вы собираетесь увеличить<br />
+2. Перетащите их в DragAndDrop.bat и дождитесь завершения операции<br />
+3. Измененные изображения будут сохранены в каталоге "outputs/"<br />
